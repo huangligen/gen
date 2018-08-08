@@ -1,0 +1,72 @@
+/**index.wxss**/
+.title {
+  margin-top: 140rpx;
+  width: 100%;
+  height: 56rpx;
+  text-align: center;
+  position: relative;
+}
+
+.title-border{
+  margin: 0 auto;
+  padding: 0 10rpx;
+  color: #598E20;
+  border:1px solid #B3E280;
+  border-radius:72rpx;
+  width:250rpx;
+  height:52rpx;
+  background:#f2ffe5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title-word {
+  color: #598e20;
+  font-size: 26rpx;
+  line-height: 46rpx;
+  padding-left: 10rpx;
+}
+.bold_stye{
+  padding: 0 4rpx;
+  font-weight: blod;
+  font-size: 32rpx;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.ico_down {
+  width: 0;
+  height: 0;
+  border: 10rpx solid transparent;
+  border-top-color: #b3e280;
+  margin: 0 auto;
+}
+
+.ruleBg{
+  position:relative;
+  padding: 40rpx 0 0;
+  width:100%;
+  height:90rpx;
+  white-space: nowrap;
+  background-image: url("https://ps4-northchina-childrensnutritionmap-pd.chinacloudsites.cn/api/img/rule.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+.rule_kedu {
+    display: inline-block;
+    line-height: 40rpx;
+    padding: 12rpx 0rpx;
+    width:120rpx;
+    color: #598E20;
+    font-size: 28rpx;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #fafff9;
+    border-radius: 4rpx;
+}
+.rule_kedu:first-child{
+  margin-left: -45rpx;
+}

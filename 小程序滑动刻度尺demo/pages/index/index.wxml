@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<!-- 精确到整数刻度开始 -->
+<view class='title'>
+  <view class='title-border'>
+    <view class='title-word'>所选刻度<text class='bold_stye'>{{chooseValue1}}</text>cm</view>
+  </view>
+</view>
+<view class='ico_down'></view>
+<scroll-view scroll-x='true' class='ruleBg' bindscroll='rule1_scroll'>
+  <block wx:for="{{ruleArrow1}}" wx:key="ruleArrow1">
+    <view class='rule_kedu' >{{item}}</view>
+  </block>
+</scroll-view>
+<!-- 精确到整数刻度结束 -->
+
+<!-- 精确到小数后一位刻度开始 -->
+<view class='title'>
+  <view class='title-border'>
+    <view class='title-word'>所选刻度<text class='bold_stye'>{{chooseValue2}}</text>cm</view>
+  </view>
+</view>
+<view class='ico_down'></view>
+<scroll-view scroll-x='true' class='ruleBg' bindscroll='rule2_scroll'>
+  <block wx:for="{{ruleArrow2}}" wx:key="ruleArrow2">
+    <view class='rule_kedu' >{{item}}</view>
+  </block>
+</scroll-view>
+<!-- 精确到小数后一位刻度结束 -->
